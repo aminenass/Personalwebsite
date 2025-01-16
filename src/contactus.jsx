@@ -29,33 +29,32 @@ export default function Contact({contactRef}) {
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
-    sendEmail()
-  };
+    const formData = new FormData(event.target);
+
     
-   const sendEmail = async () => {
-      try {
-        const response = await fetch("/.netlify/functions/email", {
-          method: "POST",
-          body: JSON.stringify(formData),
-        });
-  
-        const data = await response.json();
-        if (data.success) {
-          setResult("Form Submitted Successfully");
-          setFormData({
-            'Full name': '',
-            'Subject': '',
-            'Email': '',
-            'Message': '',
-          });
-        } else {
-          setResult(data.message);
-        }
-      } catch (error) {
-        console.error("Error:", error);
-        setResult("There was an error submitting the form.");
-      }
-    };
+       
+    formData.append("access_key", import.meta.env.EMAIL_ACCESS_KEY);
+    
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      setFormData({
+        'Full name': '',
+        'Subject': '',
+        'Email': '',
+        'Message': '',
+      });
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   
   const setAnotherform = () => {
     setResult("")
