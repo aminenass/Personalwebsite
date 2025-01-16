@@ -33,7 +33,7 @@ export default function Contact({contactRef}) {
 
     
        
-    formData.append("access_key", import.meta.env.EMAIL_ACCESS_KEY);
+    formData.append("access_key", process.env.EMAIL_ACCESS_KEY);
     
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
