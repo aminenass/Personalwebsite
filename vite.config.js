@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   define: {
-    'process.env': process.env,
+    'import.meta.env.VITE_EMAIL_ACCESS_KEY': JSON.stringify(process.env.VITE_EMAIL_ACCESS_KEY),
   },
 })
