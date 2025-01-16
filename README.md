@@ -1,12 +1,15 @@
-<<<<<<< HEAD
-# React + Vite
+Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This is a personal website built using React.js and Vite. The website is responsive and designed to showcase my skills, and contact information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Personalwebsite
->>>>>>> 135fa3e9db253088bf8614eb0410cb90519e8f2c
+Features
+Responsive Design: Optimized for all screen sizes (desktop, tablet, and mobile).
+Modern Design: Clean, modern, and minimalistic layout with smooth scrolling and transitions.
+Contact Form: Integrated a contact form for visitors to reach out.
+
+Tech Stack
+React.js: JavaScript library for building user interfaces.
+Vite: Fast and optimized build tool for modern web applications.
+Tailwind CSS: Utility-first CSS framework for responsive and customizable designs.
+Web3Forms: Used to handle form submissions for contact requests.
