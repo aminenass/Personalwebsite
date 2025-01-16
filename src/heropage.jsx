@@ -1,5 +1,5 @@
 
-
+import img from './assets/photo5.jpeg';
 
 export default function Heropage({scroll,contactRef}) {
   
@@ -45,7 +45,7 @@ export default function Heropage({scroll,contactRef}) {
           {/* Right Content */}
           <div className="flex-1 flex justify-center">
             <img
-              src="src/assets/photo5.jpeg"
+              src={img}
               alt="heropicture"
               className=" z-0 w-full max-w-md rounded-full"
             />
