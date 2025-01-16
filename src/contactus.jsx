@@ -28,7 +28,7 @@ export default function Contact({contactRef}) {
   }
   const onSubmit = async (event) => {
     event.preventDefault();
-    console.log(import.meta.env.VITE_EMAIL_ACCESS_KEY);
+    
     setResult("Sending....");
     const formData = new FormData(event.target);
        
