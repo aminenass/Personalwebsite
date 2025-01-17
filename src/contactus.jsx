@@ -23,36 +23,34 @@ export default function Contact({ contactRef }) {
 
   const sendEmail = async (formData) => {
     try {
-
       const response = await fetch("/.netlify/functions/email", {
         method: "POST",
         headers: {      
-          
           "Content-Type": "application/json",
-           "Accept": "application/json" },
-
+          "Accept": "application/json"
+        },
         body: JSON.stringify(formData),
       });
-      
+  
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
-
+  
       const result = await response.json();
       return result;
       
     } catch (error) {
-      console.error("Failed to send email:", error);
-      return { success: false, message: error.message };
+      console.error("Email submission failed.");
+      return { success: false, message: "An error occurred. Please try again later." };
     }
   };
-
+  
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending...");
-
+  
     const result = await sendEmail(formData);
-
+  
     if (result.success) {
       setResult("Form Submitted Successfully");
       setFormData({
@@ -62,11 +60,11 @@ export default function Contact({ contactRef }) {
         "Message": "",
       });
     } else {
-      console.error("Email submission failed.");
+      console.error("Form submission error.");
       setResult("Failed to submit form. Please try again.");
     }
   };
-
+  
   const setAnotherform = () => {
     setResult("");
     setFormData({

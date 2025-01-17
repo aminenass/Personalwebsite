@@ -16,7 +16,7 @@ export async function handler(event) {
       Message
     };
 
-    console.log("Form submission attempt."); // Safer log
+    console.log("Form submission attempt."); 
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -32,7 +32,7 @@ export async function handler(event) {
     }
 
     const result = await response.json();
-    console.log("Web3Forms response status:", result.success); // Logs only success status
+    console.log("Web3Forms response status:", result.success); 
 
     return {
       statusCode: 200,
