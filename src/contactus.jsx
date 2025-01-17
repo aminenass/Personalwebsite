@@ -21,32 +21,8 @@ export default function Contact({ contactRef }) {
     "Message": "",
   });
 
-<<<<<<< HEAD
   const sendEmail = async (formData) => {
     try {
-=======
-  const [formData,setFormData] = useState({
-    'Full name' :'',
-    'Subject' : '',
-    'Email' :'',
-    'Message' : '',
-  })
-  const formDataToSend = new FormData();
-  for (const [key, value] of Object.entries(formData)) {
-    formDataToSend.append(key, value);
-  }
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
-       
-    formData.append("access_key", EMAIL_ACCESS_KEY);
-    
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
->>>>>>> 281eeb303aa5d135134b83c2a303d2345889e44d
 
       const response = await fetch("/.netlify/functions/email", {
         method: "POST",
