@@ -62,8 +62,8 @@ export default function Contact({ contactRef }) {
         "Message": "",
       });
     } else {
-      console.log("Error", result);
-      setResult(result.message);
+      console.error("Email submission failed.");
+      setResult("Failed to submit form. Please try again.");
     }
   };
 
