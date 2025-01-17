@@ -35,9 +35,8 @@ Before development, I designed the initial layout in Figma to plan the user expe
 3️⃣ Skills – A showcase of my technical and creative skills.
 4️⃣ Contact Me – A form for visitors to reach out.
 
-🖼️ Preview
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🖼️ Preview
 
 DESKTOP VERSION :
 ![landingpage](https://github.com/user-attachments/assets/2d28d400-0fa1-472c-8147-f644adcce66f)
@@ -53,6 +52,7 @@ MOBILE VERSION :
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 🚀 Live Site: https://medaminenassim.netlify.app/
 
