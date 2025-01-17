@@ -1,15 +1,48 @@
-Personal Website
+Personal Website 🚀
+
+This is a personal website built using React.js and Vite. The website is responsive and designed to showcase my skills, projects, and contact information.
+
+🌟 Features
+
+📱 Responsive Design – Optimized for all screen sizes (desktop, tablet, and mobile).
+
+🎨 Modern UI – Clean, minimalistic layout with smooth scrolling and transitions.
+
+✉️ Contact Form – Integrated Web3Forms for easy visitor communication.
+
+☁️ Hosted on Netlify – Fast and reliable hosting with continuous deployment.
+
+🛠️ Tech Stack
+
+⚛️ React.js – JavaScript library for building user interfaces.
+
+⚡ Vite – Fast and optimized build tool for modern web apps.
+
+🎨 Tailwind CSS – Utility-first CSS framework for responsive and customizable designs.
+
+🔗 Web3Forms – Handles contact form submissions seamlessly.
+
+🌍 Netlify – Hosting and deployment.
+
+🎨 UI/UX Design
+
+Before development, I designed the initial layout in Figma to plan the user experience and visual structure.
+
+📌 Website Sections
+
+1️⃣ Landing Page – Eye-catching hero section introducing myself.
+2️⃣ About Me – A brief introduction to who I am and what I do.
+3️⃣ Skills – A showcase of my technical and creative skills.
+4️⃣ Contact Me – A form for visitors to reach out.
+
+🖼️ Preview
+
+![landingpage](https://github.com/user-attachments/assets/2d28d400-0fa1-472c-8147-f644adcce66f)
+![aboutme](https://github.com/user-attachments/assets/2d0da574-7912-460d-8eeb-a6e43321134d)
+![skills](https://github.com/user-attachments/assets/3e8f663d-df54-4995-a2eb-23d6fe371c15)
+![leaveamessage](https://github.com/user-attachments/assets/8cfbfd4e-eb6a-4482-9925-e47755489c86)
 
 
-This is a personal website built using React.js and Vite. The website is responsive and designed to showcase my skills, and contact information.
+🚀 Live Site: https://medaminenassim.netlify.app/
 
-Features
-Responsive Design: Optimized for all screen sizes (desktop, tablet, and mobile).
-Modern Design: Clean, modern, and minimalistic layout with smooth scrolling and transitions.
-Contact Form: Integrated a contact form for visitors to reach out.
-
-Tech Stack
-React.js: JavaScript library for building user interfaces.
-Vite: Fast and optimized build tool for modern web applications.
-Tailwind CSS: Utility-first CSS framework for responsive and customizable designs.
-Web3Forms: Used to handle form submissions for contact requests.
+💡 Feel free to check out the project and give feedback!
