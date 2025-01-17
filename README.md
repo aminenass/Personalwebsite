@@ -37,6 +37,8 @@ Before development, I designed the initial layout in Figma to plan the user expe
 
 🖼️ Preview
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 DESKTOP VERSION :
 ![landingpage](https://github.com/user-attachments/assets/2d28d400-0fa1-472c-8147-f644adcce66f)
 ![aboutme](https://github.com/user-attachments/assets/2d0da574-7912-460d-8eeb-a6e43321134d)
@@ -50,8 +52,7 @@ MOBILE VERSION :
 ![leavemessagephone](https://github.com/user-attachments/assets/5e179235-c8a5-4a11-bd50-977c480fb360)
 
 
-
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🚀 Live Site: https://medaminenassim.netlify.app/
 
