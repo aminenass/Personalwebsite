@@ -12,57 +12,70 @@ const allForms = [
   
 ]
 
-export default function Contact({contactRef}) {
-
+export default function Contact({ contactRef }) {
   const [result, setResult] = React.useState("");
+  const [formData, setFormData] = useState({
+    "Full name": "",
+    "Subject": "",
+    "Email": "",
+    "Message": "",
+  });
 
-  const [formData,setFormData] = useState({
-    'Full name' :'',
-    'Subject' : '',
-    'Email' :'',
-    'Message' : '',
-  })
-  const formDataToSend = new FormData();
-  for (const [key, value] of Object.entries(formData)) {
-    formDataToSend.append(key, value);
-  }
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
-       
-    formData.append("access_key", import.meta.env.VITE_EMAIL_ACCESS_KEY);
-    
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
+  const sendEmail = async (formData) => {
+    try {
 
-    const data = await response.json();
+      const response = await fetch("/.netlify/functions/email", {
+        method: "POST",
+        headers: {      
+          
+          "Content-Type": "application/json",
+           "Accept": "application/json" },
 
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      setFormData({
-        'Full name': '',
-        'Subject': '',
-        'Email': '',
-        'Message': '',
+        body: JSON.stringify(formData),
       });
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      const result = await response.json();
+      return result;
+      
+    } catch (error) {
+      console.error("Failed to send email:", error);
+      return { success: false, message: error.message };
     }
   };
-  
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending...");
+
+    const result = await sendEmail(formData);
+
+    if (result.success) {
+      setResult("Form Submitted Successfully");
+      setFormData({
+        "Full name": "",
+        "Subject": "",
+        "Email": "",
+        "Message": "",
+      });
+    } else {
+      console.log("Error", result);
+      setResult(result.message);
+    }
+  };
+
   const setAnotherform = () => {
-    setResult("")
+    setResult("");
     setFormData({
-      'Full name' :'',
-      'Subject' : '',
-      'Email' :'',
-      'Message' : '',
-    })
-  }
+      "Full name": "",
+      "Subject": "",
+      "Email": "",
+      "Message": "",
+    });
+  };
 
   return (
     
