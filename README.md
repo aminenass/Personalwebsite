@@ -38,13 +38,13 @@ Before development, I designed the initial layout in Figma to plan the user expe
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🖼️ Preview
 
-DESKTOP VERSION :
+DESKTOP VERSION & MOBILE VERSION :
 ![landingpage](https://github.com/user-attachments/assets/2d28d400-0fa1-472c-8147-f644adcce66f)
 ![aboutme](https://github.com/user-attachments/assets/2d0da574-7912-460d-8eeb-a6e43321134d)
 ![skills](https://github.com/user-attachments/assets/3e8f663d-df54-4995-a2eb-23d6fe371c15)
 ![leaveamessage](https://github.com/user-attachments/assets/8cfbfd4e-eb6a-4482-9925-e47755489c86)
 
-MOBILE VERSION :
+
 ![landingpagephone](https://github.com/user-attachments/assets/3d3a77a7-5432-4ee2-81a6-428e7ba4a628)
 ![aboutmephone](https://github.com/user-attachments/assets/01da2522-43d5-41f4-94bf-579828ff4dd3)
 ![skillsphone](https://github.com/user-attachments/assets/0805d799-1948-48d6-adb0-157c059d3abd)
