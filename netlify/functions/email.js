@@ -24,6 +24,7 @@ export async function handler(event) {
         "Content-Type": "application/json",
         "Accept": "application/json"
       },
+      credentials: 'same-origin',   
       body: JSON.stringify(formData),
     });
 

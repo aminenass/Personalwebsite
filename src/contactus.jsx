@@ -29,6 +29,7 @@ export default function Contact({ contactRef }) {
           "Content-Type": "application/json",
           "Accept": "application/json"
         },
+        credentials: 'same-origin',   
         body: JSON.stringify(formData),
       });
   
