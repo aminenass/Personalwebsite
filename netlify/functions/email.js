@@ -33,7 +33,7 @@ export async function handler(event) {
     }
 
     const result = await response.json();
-    console.log("Web3Forms response status:", result.success); 
+    console.log("Web3Forms response status:", result.message); 
 
     return {
       statusCode: 200,
