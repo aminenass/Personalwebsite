@@ -30,10 +30,10 @@ Before development, I designed the initial layout in Figma to plan the user expe
 
 <h2>📌 Website Sections </h2>
 
-1️⃣ Landing Page – Eye-catching hero section introducing myself.
-2️⃣ About Me – A brief introduction to who I am and what I do.
-3️⃣ Skills – A showcase of my technical and creative skills.
-4️⃣ Contact Me – A form for visitors to reach out.
+<li>1️⃣ Landing Page – Eye-catching hero section introducing myself.</li>
+<li>2️⃣ About Me – A brief introduction to who I am and what I do.</li>
+<li>3️⃣ Skills – A showcase of my technical and creative skills.</li>
+<li>4️⃣ Contact Me – A form for visitors to reach out.</li>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h2>🖼️ Preview </h2>
