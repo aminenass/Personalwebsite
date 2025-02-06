@@ -1,8 +1,8 @@
-Personal Website 🚀
+<h1>Personal Website 🚀</h1>
 
 This is a personal website built using React.js and Vite. The website is responsive and designed to showcase my skills, projects, and contact information.
 
-🌟 Features
+<h2>🌟 Features</h2>
 
 📱 Responsive Design – Optimized for all screen sizes (desktop, tablet, and mobile).
 
@@ -12,7 +12,7 @@ This is a personal website built using React.js and Vite. The website is respons
 
 ☁️ Hosted on Netlify – Fast and reliable hosting with continuous deployment.
 
-🛠️ Tech Stack
+<h2>🛠️ Tech Stack</h2>
 
 ⚛️ React.js – JavaScript library for building user interfaces.
 
@@ -28,7 +28,7 @@ This is a personal website built using React.js and Vite. The website is respons
 
 Before development, I designed the initial layout in Figma to plan the user experience and visual structure.
 
-📌 Website Sections
+<h2>📌 Website Sections </h2>
 
 1️⃣ Landing Page – Eye-catching hero section introducing myself.
 2️⃣ About Me – A brief introduction to who I am and what I do.
@@ -36,7 +36,7 @@ Before development, I designed the initial layout in Figma to plan the user expe
 4️⃣ Contact Me – A form for visitors to reach out.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🖼️ Preview
+<h2>🖼️ Preview </h2>
 
 DESKTOP VERSION & MOBILE VERSION :
 ![landingpage](https://github.com/user-attachments/assets/2d28d400-0fa1-472c-8147-f644adcce66f)
@@ -54,6 +54,6 @@ DESKTOP VERSION & MOBILE VERSION :
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-🚀 Live Site: https://medaminenassim.netlify.app/
+🚀 Live Site: <a href =https://medaminenassim.netlify.app/> </a>Website
 
 💡 Feel free to check out the project and give feedback!
