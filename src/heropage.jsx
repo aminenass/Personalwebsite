@@ -61,10 +61,9 @@ export default function Heropage({scroll,contactRef}) {
           <div className="mt-3 sm:mt-0 flex justify-center sm:justify-start gap-7 ">
 
               {/* github icon */}
-             <span className="sm:[&>svg]:h-5  [&>svg]:h-10 sm:[&>svg]:w-5  [&>svg]:w-10 [&>svg]:transition-transform [&>svg]:duration-200 [&>svg]:ease-in [&>svg]:hover:scale-150">
+             <span className="sm:[&>svg]:h-5  [&>svg]:h-10 sm:[&>svg]:w-5  [&>svg]:w-10 [&>svg]:transition-transform [&>svg]:duration-200 [&>svg]:ease-in [&>svg]:hover:scale-150" href = "https://github.com/aminenass">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  href = "https://github.com/aminenass"
                   fill="gray"
                   viewBox="0 0 496 512">
                   <path
@@ -73,10 +72,9 @@ export default function Heropage({scroll,contactRef}) {
               </span>
 
               {/* linkedin icon */}
-              <span className="sm:[&>svg]:h-5  [&>svg]:h-10 sm:[&>svg]:w-5  [&>svg]:w-10 [&>svg]:transition-transform [&>svg]:duration-200 [&>svg]:ease-in [&>svg]:hover:scale-150">
+              <span className="sm:[&>svg]:h-5  [&>svg]:h-10 sm:[&>svg]:w-5  [&>svg]:w-10 [&>svg]:transition-transform [&>svg]:duration-200 [&>svg]:ease-in [&>svg]:hover:scale-150" href = "https://www.linkedin.com/in/med-amine-nassim/" >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  href = "https://www.linkedin.com/in/med-amine-nassim/" 
                   fill="gray"
                   viewBox="0 0 448 512">
                   <path
