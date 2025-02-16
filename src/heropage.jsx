@@ -64,6 +64,7 @@ export default function Heropage({scroll,contactRef}) {
              <span className="sm:[&>svg]:h-5  [&>svg]:h-10 sm:[&>svg]:w-5  [&>svg]:w-10 [&>svg]:transition-transform [&>svg]:duration-200 [&>svg]:ease-in [&>svg]:hover:scale-150">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
+                  href = "https://github.com/aminenass"
                   fill="gray"
                   viewBox="0 0 496 512">
                   <path
@@ -75,6 +76,7 @@ export default function Heropage({scroll,contactRef}) {
               <span className="sm:[&>svg]:h-5  [&>svg]:h-10 sm:[&>svg]:w-5  [&>svg]:w-10 [&>svg]:transition-transform [&>svg]:duration-200 [&>svg]:ease-in [&>svg]:hover:scale-150">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
+                  href = "https://www.linkedin.com/in/med-amine-nassim/" 
                   fill="gray"
                   viewBox="0 0 448 512">
                   <path
