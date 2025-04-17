@@ -52,43 +52,50 @@ git clone https://github.com/aminenass/Personalwebsite.git
 cd Personalwebsite
 npm install
 npm run dev
+```
 
+<p>This will install all dependencies and start the development server.<br />
+Visit <a href="http://localhost:5173">http://localhost:5173</a> to view the app in your browser.</p>
 
-This will install all dependencies and start the development server.
-Visit http://localhost:5173 to view the app in your browser.
-🚀 How to Create a New Vite + React Project
-To create a new React project using Vite:
+<hr />
 
-bash
-Copy
-Edit
-npm create vite@latest
-Enter your project name (e.g., my-app)
+<h2>🚀 How to Create a New Vite + React Project</h2>
 
-Select React
+<p>To create a new React project using Vite, run:</p>
 
-Choose either JavaScript or TypeScript (based on your preference)
+<pre><code>npm create vite@latest
+</code></pre>
 
-Then:
+<p>Follow the prompts:</p>
+<ul>
+  <li>Enter your project name (e.g., <code>my-app</code>)</li>
+  <li>Select <strong>React</strong></li>
+  <li>Choose either <strong>JavaScript</strong> or <strong>TypeScript</strong></li>
+</ul>
 
-bash
-Copy
-Edit
-cd my-app
+<p>Then:</p>
+
+<pre><code>cd my-app
 npm install
 npm run dev
-Your app will be running at http://localhost:5173.
+</code></pre>
 
-🛠 Requirements
-Node.js (v16 or higher recommended)
+<p>Your app will be running at <a href="http://localhost:5173">http://localhost:5173</a>.</p>
 
-npm (comes with Node.js) or Yarn / pnpm
+<hr />
 
-📁 Project Structure
-bash
-Copy
-Edit
-your-project/
+<h2>🛠 Requirements</h2>
+
+<ul>
+  <li><a href="https://nodejs.org/">Node.js</a> (v16 or higher recommended)</li>
+  <li>npm (comes with Node.js), or <a href="https://yarnpkg.com/">Yarn</a> / <a href="https://pnpm.io/">pnpm</a></li>
+</ul>
+
+<hr />
+
+<h2>📁 Project Structure</h2>
+
+<pre><code>your-project/
 ├─ public/              # Static assets
 ├─ src/                 # Source code
 │  ├─ assets/           # Images and other assets
@@ -97,45 +104,46 @@ your-project/
 ├─ index.html           # Main HTML file
 ├─ package.json         # Project metadata and dependencies
 └─ vite.config.js       # Vite configuration
-📦 Build for Production
-To create a production-ready build:
+</code></pre>
 
-bash
-Copy
-Edit
-npm run build
-Then you can preview the build with:
+<hr />
 
-bash
-Copy
-Edit
-npm run preview
-🌐 Deployment
-After building the app, you can deploy the dist/ folder to any static hosting provider like:
+<h2>📦 Build for Production</h2>
 
-Vercel
+<p>To create a production-ready build:</p>
 
-Netlify
+<pre><code>npm run build
+</code></pre>
 
-GitHub Pages
+<p>Then you can preview the build with:</p>
 
-💡 Useful Scripts
-bash
-Copy
-Edit
-npm run dev       # Start the development server
+<pre><code>npm run preview
+</code></pre>
+
+<hr />
+
+<h2>🌐 Deployment</h2>
+
+<p>After building the app, deploy the <code>dist/</code> folder to any static hosting provider, such as:</p>
+<ul>
+  <li><a href="https://vercel.com/">Vercel</a></li>
+  <li><a href="https://www.netlify.com/">Netlify</a></li>
+  <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+</ul>
+
+<hr />
+
+<h2>💡 Useful Scripts</h2>
+
+<pre><code>npm run dev       # Start the development server
 npm run build     # Build the app for production
 npm run preview   # Preview the production build
-Happy coding! 🚀
+</code></pre>
 
-yaml
-Copy
-Edit
+<hr />
 
----
+<p>Happy coding! 🚀</p>
 
-
-
-🚀 Live Site: <a href =https://medaminenassim.netlify.app/> Click Here </a>
+🚀 Live Site: <a href ="https://medaminenassim.netlify.app/"> Click Here </a>
 
 💡 Feel free to check out the project and give feedback!
