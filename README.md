@@ -35,23 +35,105 @@ Before development, I designed the initial layout in Figma to plan the user expe
 <li>3️⃣ Skills – A showcase of my technical and creative skills.</li>
 <li>4️⃣ Contact Me – A form for visitors to reach out.</li>
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<h2>🖼️ Preview </h2>
+# Vite + React Project
 
-DESKTOP VERSION & MOBILE VERSION :
-![landingpage](https://github.com/user-attachments/assets/2d28d400-0fa1-472c-8147-f644adcce66f)
-![aboutme](https://github.com/user-attachments/assets/2d0da574-7912-460d-8eeb-a6e43321134d)
-![skills](https://github.com/user-attachments/assets/3e8f663d-df54-4995-a2eb-23d6fe371c15)
-![leaveamessage](https://github.com/user-attachments/assets/8cfbfd4e-eb6a-4482-9925-e47755489c86)
+This is a React project built using [Vite](https://vitejs.dev/), a fast build tool and development server.  
+Below you'll find instructions on how to clone the project or create your own from scratch using Vite.
+
+---
+
+## 🔁 How to Clone This Project
+
+1. Make sure you have **Node.js** and **npm** installed.
+2. Run the following commands in your terminal:
+
+```bash
+git clone https://github.com/aminenass/Personalwebsite.git
+cd Personalwebsite
+npm install
+npm run dev
 
 
-![landingpagephone](https://github.com/user-attachments/assets/3d3a77a7-5432-4ee2-81a6-428e7ba4a628)
-![aboutmephone](https://github.com/user-attachments/assets/01da2522-43d5-41f4-94bf-579828ff4dd3)
-![skillsphone](https://github.com/user-attachments/assets/0805d799-1948-48d6-adb0-157c059d3abd)
-![leavemessagephone](https://github.com/user-attachments/assets/5e179235-c8a5-4a11-bd50-977c480fb360)
+This will install all dependencies and start the development server.
+Visit http://localhost:5173 to view the app in your browser.
+🚀 How to Create a New Vite + React Project
+To create a new React project using Vite:
 
+bash
+Copy
+Edit
+npm create vite@latest
+Enter your project name (e.g., my-app)
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Select React
+
+Choose either JavaScript or TypeScript (based on your preference)
+
+Then:
+
+bash
+Copy
+Edit
+cd my-app
+npm install
+npm run dev
+Your app will be running at http://localhost:5173.
+
+🛠 Requirements
+Node.js (v16 or higher recommended)
+
+npm (comes with Node.js) or Yarn / pnpm
+
+📁 Project Structure
+bash
+Copy
+Edit
+your-project/
+├─ public/              # Static assets
+├─ src/                 # Source code
+│  ├─ assets/           # Images and other assets
+│  ├─ components/       # Reusable components
+│  └─ App.jsx           # Main app component
+├─ index.html           # Main HTML file
+├─ package.json         # Project metadata and dependencies
+└─ vite.config.js       # Vite configuration
+📦 Build for Production
+To create a production-ready build:
+
+bash
+Copy
+Edit
+npm run build
+Then you can preview the build with:
+
+bash
+Copy
+Edit
+npm run preview
+🌐 Deployment
+After building the app, you can deploy the dist/ folder to any static hosting provider like:
+
+Vercel
+
+Netlify
+
+GitHub Pages
+
+💡 Useful Scripts
+bash
+Copy
+Edit
+npm run dev       # Start the development server
+npm run build     # Build the app for production
+npm run preview   # Preview the production build
+Happy coding! 🚀
+
+yaml
+Copy
+Edit
+
+---
+
 
 
 🚀 Live Site: <a href =https://medaminenassim.netlify.app/> Click Here </a>
