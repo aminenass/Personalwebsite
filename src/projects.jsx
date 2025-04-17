@@ -137,16 +137,16 @@ export default function Project({ projectsRef }) {
               {/* Project Image */}
               <img
                     src={item.srcimage}
-                    srcSet={`
-                      ${item.srcSmall} 600w,
-                      ${item.srcMedium} 1024w,
-                      ${item.srcLarge} 1600w
-                    `}
+                    // srcSet={`
+                    //   ${item.srcSmall} 600w,
+                    //   ${item.srcMedium} 1024w,
+                    //   ${item.srcLarge} 1600w
+                    // `}
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     loading="lazy"
                     alt="Project preview"
                     className="w-full h-64 object-cover"
-            />
+    />
             </a>
 
             {/* Rest of the card content remains the same */}
