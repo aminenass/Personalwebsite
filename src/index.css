@@ -1,7 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.slick-dots li button:before {
+  color: white !important;
+  opacity: 0.5 !important;
+}
 
+.slick-dots li.slick-active button:before {
+  color: #0A66C2 !important;
+  opacity: 1 !important;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -13,3 +21,5 @@ html, body {
       scroll-padding-top: 14rem;
     }
   }
+
+
