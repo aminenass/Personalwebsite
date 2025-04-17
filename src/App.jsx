@@ -47,7 +47,7 @@ function App() {
       <Heropage scroll={scroll} homeRef={homeRef} contactRef={contactRef} />
       <Aboutme aboutmeRef={aboutmeRef} />
       <Skills skillsRef={skillsRef} />
-      {/* <Project projectsRef={projectsRef} /> */}
+      <Project projectsRef={projectsRef} />
       <Contact contactRef={contactRef} />
       <Footer />
     </>
