@@ -108,7 +108,7 @@ export default function Project({ projectsRef }) {
           <div className="relative bg-stone-800 rounded-md max-w-sm overflow-hidden shadow-lg  mt-16" >
             {/* Clickable Image Container */}
             <a
-              href = {url}
+              href = {item.url}
               target="_blank"
               rel="noopener noreferrer"
               className="block group relative cursor-pointer"
