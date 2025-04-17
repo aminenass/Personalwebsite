@@ -10,7 +10,7 @@ export default function Project({ projectsRef }) {
     {
       id: "1",
       title: "Django : for discovering movies and TV shows",
-      url: "hello",
+      url: "https://github.com/aminenass/medmovies",
       keywords: ["#Django", "#PostgreSQ", "#Auth"],
       srcimage: image,
       description:
@@ -19,7 +19,7 @@ export default function Project({ projectsRef }) {
     {
       id: "2",
       title: "Flask : web app for exploring FC Barcelona",
-      url: "hello",
+      url: "https://aminepy.pythonanywhere.com/",
       keywords: ["#Flask", "#MongoDb", "#Selenium"],
       srcimage: img2,
       description:
@@ -28,7 +28,7 @@ export default function Project({ projectsRef }) {
     {
       id: "3",
       title: "My Personal Website : Skills, Projects & Contact",
-      url: "helllo",
+      url: "https://medaminenassim.netlify.app/",
       keywords: ["#Reactjs", "#Vite", "#Tailwind"],
       srcimage: img3,
       description:
@@ -108,7 +108,7 @@ export default function Project({ projectsRef }) {
           <div className="relative bg-stone-800 rounded-md max-w-sm overflow-hidden shadow-lg  mt-16" >
             {/* Clickable Image Container */}
             <a
-              href="#"
+              href = {url}
               target="_blank"
               rel="noopener noreferrer"
               className="block group relative cursor-pointer"
